@@ -15,5 +15,5 @@ func main() {
 	router.GET("/", func(c *gin.Context) {
 		c.String(http.StatusOK, "wellcom to guanghzou")
 	})
-	router.Run("172.27.154.123:8090")
+	router.Run("127.0.0.1:8090")
 }
